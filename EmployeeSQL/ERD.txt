@@ -15,7 +15,7 @@ emp_no INTEGER FK >- employees.emp_no
 
 titles
 - 
-title_id VARCHAR PK
+title_id VARCHAR FK >- employees.emp_title
 title VARCHAR
 
 employees
@@ -31,4 +31,4 @@ hire_date VARCHAR
 salaries
 -
 emp_no INTEGER FK >- employees.emp_no
-salary INTEGER PK
+salary INTEGER 
